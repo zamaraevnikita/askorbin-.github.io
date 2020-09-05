@@ -1,0 +1,65 @@
+#circle1 {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: red;
+    display: inline-block;
+    margin-left: 22%;
+  }
+  #circle2 {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: green;
+    display: inline-block;
+    margin-left: 22%;
+  }
+  #circle3 {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: cyan;
+    display: inline-block;
+    margin-left: 22%;
+  }
+ 
+
+    #button{
+        display: inline;
+        margin-left: 30px;
+
+    }
+    
+    
+    
+    
+    
+    #text{
+        display: inline;
+        margin-left: 320px;
+
+    }
+
+    #left{
+        margin-left: 45%;
+        transform: rotate(0deg);
+
+    }
+
+    #left:hover{
+    height: 5px;
+    width: 5px;
+    transition: 5s ease-in;
+       
+   }
+   #left:active{
+    transform: rotate(180deg);
+    transition: 2s ease-in;
+       
+   }
