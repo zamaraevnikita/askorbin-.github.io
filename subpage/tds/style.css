@@ -1,152 +1,23 @@
+img {
+	user-select: none;
+}
 
-        .body {
-           
-            background-image: url("img/background.jpg");
-            
-            height: 100%;
-        
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        #logo {
-            width: 50px;
-            height: 50px;
-        }
-        #logoicon {
-            display: flex;
-        }
-        #logotext {
-            margin-left: 500px;
-            margin-top: 50px;
-        }
-        #visit {
-            margin-top: 60pt;
-        }
-        #description{
-            margin-top: 100pt;
-        }
-        #ipad{
-            height: 600pt;
-            margin-left: 50px;
-            margin-top: 60px;
-        }
-        #header {
-            margin-top: 30px;
-        }
-        #options {
-            text-align: center;
-            margin-top: 10px;
-        }
-        #email {
-            margin-top: 100px;
-            margin-left: 30%;
-            width: 60%;
-        }
-        #info {
-            height: 1000px;
-            width: 100%;
-            margin-top: 250px; 
-            background-color: rgba(255, 255, 255, 0.5);
-        }
-        .im {
-            width: 280px;
-            height: 180px;
-        }
-        #pod {
-            margin-left: -50px; 
-            margin-top: -20px;
-        }
-        .nav-link {
-            text-align: end;
-            font-size: 20pt; 
-            color: #000;
-        }
-        #txt1{
-            text-align: left;
-        }
-        .icns {
-            margin-left: 20px;
-        }
-        #cnt {
-            margin-top: 50px;
-        }
-        #prg {
-            width: 44%; 
-            text-align: center; 
-            font-size: 22pt; 
-            margin-left: 28%;
-        }
-        #con2 {
-            margin-top: 100pt;
-            width: 100%;
-        }
-        .point {
-            margin-left: 10pt;
-        }
-        #yak2 {
-            background-color: black; 
-            height: 800px;
-        }
-        #cnctus {
-            color: rgb(122, 191, 236);
-            text-align: center; 
-            margin-top: 100pt;
-        }
-        #gvemail {
-            color: grey(148, 42, 39); 
-            text-align: center; 
-            margin-top: 10pt;
-        }
-        #exampleInputEmail1 {
-            width: 60%;
-        }
-        #sbmt {
-            margin-left: 10pt;
-            width: 20%px;
-        }
-        #lstxt {
-            color: white; 
-            margin-top: 240pt;
-            background-color: black;
-        }
-        #scndln {
-            margin-top: 30pt;
-        }
-        .icnt2 {
-            margin-top: 20px;
-        }
-        .pnts {
-            font-size: 14pt; 
-        }
-        #header [type="checkbox"]{
-            display: none;
-        }  
-        #header label.toggleMenu{
-            background: hsla(0, 11%, 96%, 0.39);
-            padding: 15px 40px;
-            text-transform: uppercase;
-            font-size: 14px;
-            cursor: pointer;
-            position: relative;
-        }    
-        #header label.toggleMenu .fa{
-            position: absolute;
-            top: 15px;
-            left: 12px;
-            font-size: 18px;
-        }  
-        #menu {
-            display: none;
-        }
-        #tmen {
-            display: none;
-            float: right;
-        }
+nav a {
+	color: black;
+	font-size: 18px;
+	margin-right: 10px;
+}
+#bgi{
+	background-image: url(img/background.jpg);
+	height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-        
-  
-    
-    
 
-    
+@media (max-width: 420px) {
+	#vst {
+		text-align: center;
+	}
+}
