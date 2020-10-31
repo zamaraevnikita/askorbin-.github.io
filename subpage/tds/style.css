@@ -37,18 +37,7 @@ nav a {
 	margin-bottom: 150px;
 }
 
-#img_1 img {
-	height: 360px;
-	width: 100%;
-	margin-bottom: 45px;
-	margin-left: 100px;
-}
-#img_2 img {
-    height: 360px;
-	width: 100%;
-	margin-bottom: 45px;
-	margin-left: 100px;
-}
+
 
 #carouselExampleSlidesOnly img {
 	height: 530px;
@@ -65,15 +54,7 @@ nav a {
 		width: 100%;
 	}
 
-	#img_1 img {
-		width: 80%;
-		margin-right: 100px;
-	}
 
-	#img_2 img {
-		width: 80%;
-		margin-right: 100px;
-	}
 }
 
 @media (max-width: 1199px) {
@@ -81,13 +62,7 @@ nav a {
 		margin-left: 110px;
 	}
 
-	#img_1 img {
-	margin-left: 45px;
-	}
 
-	#img_2 img {
-		margin-left: 45px;
-	}
 }
 @media (min-width: 440px) and (max-width: 575px) {
 	#logo {
@@ -143,4 +118,43 @@ nav a {
 		margin-top: 20px;
 		margin-left: 85px;
 	}
+}
+#im2_g {
+	margin-top: 10px;
+}
+#im1_g {
+    margin-top: 100px;
+}
+.img {
+    width: 280px;
+    height: 180px;
+}
+@media (max-width: 1200px) {
+
+
+	#im1_g {
+        margin-top: 100px;
+    }
+    #im2_g {
+        margin-top: 10px;
+	}
+}
+.img {
+	width: 150px;
+	height: 100px;
+}
+@media (max-width: 425px) {
+
+	#im1_g {
+        margin-top: 100px;
+    }
+    #im2_g {
+        margin-top: 10px;
+	}
+	.img {
+        width: 330px;
+        height: auto;
+        vertical-align: super;
+        margin-left: -10px;
+    }
 }
